@@ -187,7 +187,7 @@ class 'A': public 'B'
 {
 public: 
     int 'm',
-    int 'n' '10',
+    int 'n'(10),
     foo = function() 
         print("function foo called!") 
     end,
