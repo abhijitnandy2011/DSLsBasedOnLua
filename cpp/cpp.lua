@@ -1,4 +1,4 @@
--- A simple DSL for a C++ like language
+-- A simple DSL written in Lua for a C++ like language
 -- that supports creation of classes similarly to C++
 -- Creates classes in the global ENV
 -- Also puts a reference within the 'cpp' table
@@ -196,7 +196,7 @@ private:
     str 's' 'hi',
     int 'i' '3',
     bar = function() 
-        print("function foo called!") 
+        print("function bar called!") 
     end,
 }
 
